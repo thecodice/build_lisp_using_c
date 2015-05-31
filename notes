@@ -1,0 +1,3 @@
+difference between fputs and fprintf
+    fprintf does formatted output.
+    fputs simply wirtes the string you supply it to the indicated output stream
