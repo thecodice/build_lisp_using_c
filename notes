@@ -1,3 +1,15 @@
+Chapter 4
 difference between fputs and fprintf
     fprintf does formatted output.
     fputs simply wirtes the string you supply it to the indicated output stream
+    
+to install editline due to some compilation error
+    sudo apt-get install libedit-dev
+    
+    to link editline with with the main program
+    gcc -std=99 -Wall prompt.c -ledit -o prompt//-ledit is the flag to make the link
+    
+Preprocessor = a program that runs before the compiler,detect which os the code is being comiled on and to use this to emit different code    
+the use of #ifdef,#else,#endif before the main code
+
+*****************************************************************
